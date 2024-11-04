@@ -107,6 +107,11 @@ def Generate_population(population_size, number_of_variables, variable_upper_bou
 
 
 
+def value_of_r():
+    return r
+
+
+
 
 
 # Function calculation of population
