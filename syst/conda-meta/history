@@ -1,5 +1,5 @@
-==> 2024-10-30 12:42:06 <==
-# cmd: /home/aditya/Programs/Anaconda3/bin/conda create -p syst python==3.8 -y
+==> 2024-11-07 12:11:58 <==
+# cmd: /home/aditya/Programs/Anaconda3/bin/conda create -p syst python==3.8
 # conda version: 24.9.0
 +defaults/linux-64::_libgcc_mutex-0.1-main
 +defaults/linux-64::_openmp_mutex-5.1-1_gnu

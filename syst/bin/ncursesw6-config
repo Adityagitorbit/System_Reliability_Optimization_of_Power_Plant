@@ -36,7 +36,7 @@ LANGUAGE=C;	export LANGUAGE
 LC_ALL=C;	export LC_ALL
 LC_CTYPE=C;	export LC_CTYPE
 
-prefix="/home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst"
+prefix="/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
@@ -101,7 +101,7 @@ fi
 # There is no portable way to find the list of standard library directories.
 # Require a POSIX shell anyway, to keep this simple.
 lib_flags=
-for opt in -L$libdir -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/lib -Wl,-rpath-link,/home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/lib -L/home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/lib  $LIBS
+for opt in -L$libdir -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/lib -Wl,-rpath-link,/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/lib -L/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/lib  $LIBS
 do
 	case $opt in
 	-specs*) # ignore linker specs-files which were used to build library
@@ -280,10 +280,10 @@ ENDECHO
 		echo "${mandir}"
 		;;
 	--terminfo)
-		echo "/home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/share/terminfo"
+		echo "/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/share/terminfo"
+		echo "/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/share/terminfo"
 		;;
 	--termpath)
 		echo "/etc/termcap:/usr/share/misc/termcap"

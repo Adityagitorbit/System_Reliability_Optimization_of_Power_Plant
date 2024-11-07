@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' /home/aditya/Programs/My_All_Programming_Files/Python/5.ML_&_DL/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/bin/python "$0" "$@"
-' '''
+#!/home/aditya/Programs/End_to_End/System_Reliability_Optimization_of_Power_Plant/syst/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
